@@ -8,10 +8,6 @@
 
 #import "SmartGeometryViewController.h"
 #import "BroadView.h"
-#import "SCPoint.h"
-#import "PenInfo.h"
-#import "Threshold.h"
-#import "UnitFactory.h"
 
 @implementation BroadView
 
@@ -21,7 +17,6 @@
 @synthesize owner;
 @synthesize unitList,graphList,newGraphList,pointGraphList,saveGraphList;
 @synthesize context;
-@synthesize factory;
 @synthesize hasDrawed;
 @synthesize graphImageView;
 
