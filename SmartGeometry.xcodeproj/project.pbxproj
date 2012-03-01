@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A36053D149690D3000B9062 /* BroadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A360530149690D1000B9062 /* BroadView.m */; };
+		0A36053E149690D3000B9062 /* Gunit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A360532149690D2000B9062 /* Gunit.m */; };
+		0A36053F149690D3000B9062 /* LineUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A360534149690D2000B9062 /* LineUnit.m */; };
+		0A360540149690D3000B9062 /* PointUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A360536149690D2000B9062 /* PointUnit.m */; };
+		0A360541149690D3000B9062 /* SCGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A360538149690D2000B9062 /* SCGraph.m */; };
+		0A360542149690D3000B9062 /* SCLineGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A36053A149690D3000B9062 /* SCLineGraph.m */; };
+		0A360543149690D3000B9062 /* SCPointGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A36053C149690D3000B9062 /* SCPointGraph.m */; };
+		0A360546149691D0000B9062 /* Threshold.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A360545149691D0000B9062 /* Threshold.m */; };
+		0A3605521496A0DC000B9062 /* SCTriangleGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3605511496A0DC000B9062 /* SCTriangleGraph.m */; };
+		0A98D4EF1495CE3300E6596A /* UnitFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A98D4EE1495CE3300E6596A /* UnitFactory.m */; };
+		A32B21141495B7D000568A5B /* Stroke.m in Sources */ = {isa = PBXBuildFile; fileRef = A32B21131495B7CF00568A5B /* Stroke.m */; };
+		A377032214C8134900DFEEAC /* SCCurveGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = A377032114C8134900DFEEAC /* SCCurveGraph.m */; };
+		A37B0A7D1499233700CF2587 /* SCRectangleGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = A37B0A7C1499233600CF2587 /* SCRectangleGraph.m */; };
+		A38379841494694B00D0384F /* undo.png in Resources */ = {isa = PBXBuildFile; fileRef = A38379811494694B00D0384F /* undo.png */; };
+		A38379851494694B00D0384F /* redo.png in Resources */ = {isa = PBXBuildFile; fileRef = A38379821494694B00D0384F /* redo.png */; };
+		A38379861494694B00D0384F /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = A38379831494694B00D0384F /* delete.png */; };
+		A38379A314947F4F00D0384F /* SCPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = A383799F14947F4F00D0384F /* SCPoint.m */; };
+		A38379A414947F4F00D0384F /* PenInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A38379A114947F4F00D0384F /* PenInfo.m */; };
+		A38379FA149538FF00D0384F /* Constraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A38379F9149538FF00D0384F /* Constraint.m */; };
+		A38379FD14953E7B00D0384F /* ConstraintGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = A38379FC14953E7B00D0384F /* ConstraintGraph.m */; };
+		A396058214B6DC5700D521B7 /* CurveUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = A396058114B6DC5700D521B7 /* CurveUnit.m */; };
+		A3ABA6CA1493832B0071D53D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3ABA6C91493832B0071D53D /* UIKit.framework */; };
+		A3ABA6CC1493832B0071D53D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3ABA6CB1493832B0071D53D /* Foundation.framework */; };
+		A3ABA6CE1493832B0071D53D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3ABA6CD1493832B0071D53D /* CoreGraphics.framework */; };
+		A3ABA6D41493832B0071D53D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3ABA6D21493832B0071D53D /* InfoPlist.strings */; };
+		A3ABA6D61493832B0071D53D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3ABA6D51493832B0071D53D /* main.m */; };
+		A3ABA6DA1493832B0071D53D /* SmartGeometryAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3ABA6D91493832B0071D53D /* SmartGeometryAppDelegate.m */; };
+		A3ABA6DD1493832B0071D53D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3ABA6DB1493832B0071D53D /* MainWindow.xib */; };
+		A3ABA6E01493832B0071D53D /* SmartGeometryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3ABA6DF1493832B0071D53D /* SmartGeometryViewController.m */; };
+		A3ABA6E31493832B0071D53D /* SmartGeometryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3ABA6E11493832B0071D53D /* SmartGeometryViewController.xib */; };
+		A3ABA6EB1493832B0071D53D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3ABA6EA1493832B0071D53D /* SenTestingKit.framework */; };
+		A3ABA6EC1493832B0071D53D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3ABA6C91493832B0071D53D /* UIKit.framework */; };
+		A3ABA6ED1493832B0071D53D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3ABA6CB1493832B0071D53D /* Foundation.framework */; };
+		A3ABA6EE1493832B0071D53D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3ABA6CD1493832B0071D53D /* CoreGraphics.framework */; };
+		A3ABA6F61493832B0071D53D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3ABA6F41493832B0071D53D /* InfoPlist.strings */; };
+		A3ABA6F81493832B0071D53D /* SmartGeometryTests.h in Resources */ = {isa = PBXBuildFile; fileRef = A3ABA6F71493832B0071D53D /* SmartGeometryTests.h */; };
+		A3ABA6FA1493832B0071D53D /* SmartGeometryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3ABA6F91493832B0071D53D /* SmartGeometryTests.m */; };
+		A3B885E714FF4C3C003B8B05 /* 0001.png in Resources */ = {isa = PBXBuildFile; fileRef = A3B885E614FF4C3C003B8B05 /* 0001.png */; };
+		A3B885F114FF50D3003B8B05 /* GraphImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B885F014FF50D3003B8B05 /* GraphImageView.m */; };
+		A3CE97EF14F8B7B0001EB46B /* Edit.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CE97EE14F8B7B0001EB46B /* Edit.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3ABA6EF1493832B0071D53D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3ABA6BC1493832B0071D53D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3ABA6C41493832B0071D53D;
+			remoteInfo = SmartGeometry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A36052F149690D1000B9062 /* BroadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BroadView.h; sourceTree = "<group>"; };
+		0A360530149690D1000B9062 /* BroadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BroadView.m; sourceTree = "<group>"; };
+		0A360531149690D2000B9062 /* Gunit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gunit.h; sourceTree = "<group>"; };
+		0A360532149690D2000B9062 /* Gunit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gunit.m; sourceTree = "<group>"; };
+		0A360533149690D2000B9062 /* LineUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineUnit.h; sourceTree = "<group>"; };
+		0A360534149690D2000B9062 /* LineUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineUnit.m; sourceTree = "<group>"; };
+		0A360535149690D2000B9062 /* PointUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointUnit.h; sourceTree = "<group>"; };
+		0A360536149690D2000B9062 /* PointUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointUnit.m; sourceTree = "<group>"; };
+		0A360537149690D2000B9062 /* SCGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCGraph.h; sourceTree = "<group>"; };
+		0A360538149690D2000B9062 /* SCGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCGraph.m; sourceTree = "<group>"; };
+		0A360539149690D3000B9062 /* SCLineGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLineGraph.h; sourceTree = "<group>"; };
+		0A36053A149690D3000B9062 /* SCLineGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLineGraph.m; sourceTree = "<group>"; };
+		0A36053B149690D3000B9062 /* SCPointGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCPointGraph.h; sourceTree = "<group>"; };
+		0A36053C149690D3000B9062 /* SCPointGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCPointGraph.m; sourceTree = "<group>"; };
+		0A360544149691D0000B9062 /* Threshold.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Threshold.h; sourceTree = "<group>"; };
+		0A360545149691D0000B9062 /* Threshold.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Threshold.m; sourceTree = "<group>"; };
+		0A36054F1496A0D5000B9062 /* SCTriangleGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCTriangleGraph.h; sourceTree = "<group>"; };
+		0A3605511496A0DC000B9062 /* SCTriangleGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCTriangleGraph.m; sourceTree = "<group>"; };
+		0A98D4EC1495CE2000E6596A /* UnitFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnitFactory.h; sourceTree = "<group>"; };
+		0A98D4EE1495CE3300E6596A /* UnitFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnitFactory.m; sourceTree = "<group>"; };
+		A32B21121495B7CF00568A5B /* Stroke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stroke.h; sourceTree = "<group>"; };
+		A32B21131495B7CF00568A5B /* Stroke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stroke.m; sourceTree = "<group>"; };
+		A377032014C8134900DFEEAC /* SCCurveGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCCurveGraph.h; sourceTree = "<group>"; };
+		A377032114C8134900DFEEAC /* SCCurveGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCCurveGraph.m; sourceTree = "<group>"; };
+		A37B0A7B1499233600CF2587 /* SCRectangleGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCRectangleGraph.h; sourceTree = "<group>"; };
+		A37B0A7C1499233600CF2587 /* SCRectangleGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCRectangleGraph.m; sourceTree = "<group>"; };
+		A38379811494694B00D0384F /* undo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = undo.png; sourceTree = "<group>"; };
+		A38379821494694B00D0384F /* redo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redo.png; sourceTree = "<group>"; };
+		A38379831494694B00D0384F /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
+		A383799F14947F4F00D0384F /* SCPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCPoint.m; sourceTree = "<group>"; };
+		A38379A014947F4F00D0384F /* SCPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCPoint.h; sourceTree = "<group>"; };
+		A38379A114947F4F00D0384F /* PenInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PenInfo.m; sourceTree = "<group>"; };
+		A38379A214947F4F00D0384F /* PenInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PenInfo.h; sourceTree = "<group>"; };
+		A38379F8149538FF00D0384F /* Constraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constraint.h; sourceTree = "<group>"; };
+		A38379F9149538FF00D0384F /* Constraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constraint.m; sourceTree = "<group>"; };
+		A38379FB14953E7B00D0384F /* ConstraintGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstraintGraph.h; sourceTree = "<group>"; };
+		A38379FC14953E7B00D0384F /* ConstraintGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConstraintGraph.m; sourceTree = "<group>"; };
+		A396058014B6DC5700D521B7 /* CurveUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurveUnit.h; sourceTree = "<group>"; };
+		A396058114B6DC5700D521B7 /* CurveUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurveUnit.m; sourceTree = "<group>"; };
+		A3ABA6C51493832B0071D53D /* SmartGeometry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartGeometry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3ABA6C91493832B0071D53D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A3ABA6CB1493832B0071D53D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A3ABA6CD1493832B0071D53D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A3ABA6D11493832B0071D53D /* SmartGeometry-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SmartGeometry-Info.plist"; sourceTree = "<group>"; };
+		A3ABA6D31493832B0071D53D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A3ABA6D51493832B0071D53D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3ABA6D71493832B0071D53D /* SmartGeometry-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmartGeometry-Prefix.pch"; sourceTree = "<group>"; };
+		A3ABA6D81493832B0071D53D /* SmartGeometryAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmartGeometryAppDelegate.h; sourceTree = "<group>"; };
+		A3ABA6D91493832B0071D53D /* SmartGeometryAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartGeometryAppDelegate.m; sourceTree = "<group>"; };
+		A3ABA6DC1493832B0071D53D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		A3ABA6DE1493832B0071D53D /* SmartGeometryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmartGeometryViewController.h; sourceTree = "<group>"; };
+		A3ABA6DF1493832B0071D53D /* SmartGeometryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartGeometryViewController.m; sourceTree = "<group>"; };
+		A3ABA6E21493832B0071D53D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SmartGeometryViewController.xib; sourceTree = "<group>"; };
+		A3ABA6E91493832B0071D53D /* SmartGeometryTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartGeometryTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3ABA6EA1493832B0071D53D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A3ABA6F31493832B0071D53D /* SmartGeometryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SmartGeometryTests-Info.plist"; sourceTree = "<group>"; };
+		A3ABA6F51493832B0071D53D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A3ABA6F71493832B0071D53D /* SmartGeometryTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmartGeometryTests.h; sourceTree = "<group>"; };
+		A3ABA6F91493832B0071D53D /* SmartGeometryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartGeometryTests.m; sourceTree = "<group>"; };
+		A3B885E614FF4C3C003B8B05 /* 0001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 0001.png; path = SmartGeometryTests/0001.png; sourceTree = SOURCE_ROOT; };
+		A3B885EF14FF50D3003B8B05 /* GraphImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphImageView.h; sourceTree = "<group>"; };
+		A3B885F014FF50D3003B8B05 /* GraphImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphImageView.m; sourceTree = "<group>"; };
+		A3CE97ED14F8B7B0001EB46B /* Edit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Edit.h; sourceTree = "<group>"; };
+		A3CE97EE14F8B7B0001EB46B /* Edit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Edit.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3ABA6C21493832B0071D53D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3ABA6CA1493832B0071D53D /* UIKit.framework in Frameworks */,
+				A3ABA6CC1493832B0071D53D /* Foundation.framework in Frameworks */,
+				A3ABA6CE1493832B0071D53D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3ABA6E51493832B0071D53D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3ABA6EB1493832B0071D53D /* SenTestingKit.framework in Frameworks */,
+				A3ABA6EC1493832B0071D53D /* UIKit.framework in Frameworks */,
+				A3ABA6ED1493832B0071D53D /* Foundation.framework in Frameworks */,
+				A3ABA6EE1493832B0071D53D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3ABA6BA1493832B0071D53D = {
+			isa = PBXGroup;
+			children = (
+				A3ABA6CF1493832B0071D53D /* SmartGeometry */,
+				A3ABA6F11493832B0071D53D /* SmartGeometryTests */,
+				A3ABA6C81493832B0071D53D /* Frameworks */,
+				A3ABA6C61493832B0071D53D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3ABA6C61493832B0071D53D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3ABA6C51493832B0071D53D /* SmartGeometry.app */,
+				A3ABA6E91493832B0071D53D /* SmartGeometryTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3ABA6C81493832B0071D53D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3ABA6C91493832B0071D53D /* UIKit.framework */,
+				A3ABA6CB1493832B0071D53D /* Foundation.framework */,
+				A3ABA6CD1493832B0071D53D /* CoreGraphics.framework */,
+				A3ABA6EA1493832B0071D53D /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3ABA6CF1493832B0071D53D /* SmartGeometry */ = {
+			isa = PBXGroup;
+			children = (
+				0A36052F149690D1000B9062 /* BroadView.h */,
+				0A360530149690D1000B9062 /* BroadView.m */,
+				A3B885EF14FF50D3003B8B05 /* GraphImageView.h */,
+				A3B885F014FF50D3003B8B05 /* GraphImageView.m */,
+				A377032014C8134900DFEEAC /* SCCurveGraph.h */,
+				A377032114C8134900DFEEAC /* SCCurveGraph.m */,
+				A37B0A7B1499233600CF2587 /* SCRectangleGraph.h */,
+				A37B0A7C1499233600CF2587 /* SCRectangleGraph.m */,
+				A3CE97ED14F8B7B0001EB46B /* Edit.h */,
+				A3CE97EE14F8B7B0001EB46B /* Edit.m */,
+				0A360531149690D2000B9062 /* Gunit.h */,
+				0A360532149690D2000B9062 /* Gunit.m */,
+				A396058014B6DC5700D521B7 /* CurveUnit.h */,
+				A396058114B6DC5700D521B7 /* CurveUnit.m */,
+				0A360533149690D2000B9062 /* LineUnit.h */,
+				0A360534149690D2000B9062 /* LineUnit.m */,
+				0A360535149690D2000B9062 /* PointUnit.h */,
+				0A360536149690D2000B9062 /* PointUnit.m */,
+				0A360537149690D2000B9062 /* SCGraph.h */,
+				0A360538149690D2000B9062 /* SCGraph.m */,
+				0A360539149690D3000B9062 /* SCLineGraph.h */,
+				0A36053A149690D3000B9062 /* SCLineGraph.m */,
+				0A36053B149690D3000B9062 /* SCPointGraph.h */,
+				0A36053C149690D3000B9062 /* SCPointGraph.m */,
+				0A360544149691D0000B9062 /* Threshold.h */,
+				0A360545149691D0000B9062 /* Threshold.m */,
+				A38379F8149538FF00D0384F /* Constraint.h */,
+				A38379F9149538FF00D0384F /* Constraint.m */,
+				A38379FB14953E7B00D0384F /* ConstraintGraph.h */,
+				A38379FC14953E7B00D0384F /* ConstraintGraph.m */,
+				A38379A014947F4F00D0384F /* SCPoint.h */,
+				A383799F14947F4F00D0384F /* SCPoint.m */,
+				0A36054F1496A0D5000B9062 /* SCTriangleGraph.h */,
+				0A3605511496A0DC000B9062 /* SCTriangleGraph.m */,
+				A38379A214947F4F00D0384F /* PenInfo.h */,
+				A38379A114947F4F00D0384F /* PenInfo.m */,
+				0A98D4EC1495CE2000E6596A /* UnitFactory.h */,
+				0A98D4EE1495CE3300E6596A /* UnitFactory.m */,
+				A32B21121495B7CF00568A5B /* Stroke.h */,
+				A32B21131495B7CF00568A5B /* Stroke.m */,
+				A3ABA6D81493832B0071D53D /* SmartGeometryAppDelegate.h */,
+				A3ABA6D91493832B0071D53D /* SmartGeometryAppDelegate.m */,
+				A3ABA6DB1493832B0071D53D /* MainWindow.xib */,
+				A3ABA6DE1493832B0071D53D /* SmartGeometryViewController.h */,
+				A3ABA6DF1493832B0071D53D /* SmartGeometryViewController.m */,
+				A3ABA6E11493832B0071D53D /* SmartGeometryViewController.xib */,
+				A3ABA6D01493832B0071D53D /* Supporting Files */,
+			);
+			path = SmartGeometry;
+			sourceTree = "<group>";
+		};
+		A3ABA6D01493832B0071D53D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3B885E614FF4C3C003B8B05 /* 0001.png */,
+				A38379811494694B00D0384F /* undo.png */,
+				A38379821494694B00D0384F /* redo.png */,
+				A38379831494694B00D0384F /* delete.png */,
+				A3ABA6D11493832B0071D53D /* SmartGeometry-Info.plist */,
+				A3ABA6D21493832B0071D53D /* InfoPlist.strings */,
+				A3ABA6D51493832B0071D53D /* main.m */,
+				A3ABA6D71493832B0071D53D /* SmartGeometry-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3ABA6F11493832B0071D53D /* SmartGeometryTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3ABA6F71493832B0071D53D /* SmartGeometryTests.h */,
+				A3ABA6F91493832B0071D53D /* SmartGeometryTests.m */,
+				A3ABA6F21493832B0071D53D /* Supporting Files */,
+			);
+			path = SmartGeometryTests;
+			sourceTree = "<group>";
+		};
+		A3ABA6F21493832B0071D53D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3ABA6F31493832B0071D53D /* SmartGeometryTests-Info.plist */,
+				A3ABA6F41493832B0071D53D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3ABA6C41493832B0071D53D /* SmartGeometry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3ABA6FD1493832B0071D53D /* Build configuration list for PBXNativeTarget "SmartGeometry" */;
+			buildPhases = (
+				A3ABA6C11493832B0071D53D /* Sources */,
+				A3ABA6C21493832B0071D53D /* Frameworks */,
+				A3ABA6C31493832B0071D53D /* Resources */,
+				A37B554914F2726200A33637 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartGeometry;
+			productName = SmartGeometry;
+			productReference = A3ABA6C51493832B0071D53D /* SmartGeometry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3ABA6E81493832B0071D53D /* SmartGeometryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3ABA7001493832B0071D53D /* Build configuration list for PBXNativeTarget "SmartGeometryTests" */;
+			buildPhases = (
+				A3ABA6E41493832B0071D53D /* Sources */,
+				A3ABA6E51493832B0071D53D /* Frameworks */,
+				A3ABA6E61493832B0071D53D /* Resources */,
+				A3ABA6E71493832B0071D53D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3ABA6F01493832B0071D53D /* PBXTargetDependency */,
+			);
+			name = SmartGeometryTests;
+			productName = SmartGeometryTests;
+			productReference = A3ABA6E91493832B0071D53D /* SmartGeometryTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3ABA6BC1493832B0071D53D /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = A3ABA6BF1493832B0071D53D /* Build configuration list for PBXProject "SmartGeometry" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A3ABA6BA1493832B0071D53D;
+			productRefGroup = A3ABA6C61493832B0071D53D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3ABA6C41493832B0071D53D /* SmartGeometry */,
+				A3ABA6E81493832B0071D53D /* SmartGeometryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3ABA6C31493832B0071D53D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3ABA6D41493832B0071D53D /* InfoPlist.strings in Resources */,
+				A3ABA6DD1493832B0071D53D /* MainWindow.xib in Resources */,
+				A3ABA6E31493832B0071D53D /* SmartGeometryViewController.xib in Resources */,
+				A38379841494694B00D0384F /* undo.png in Resources */,
+				A38379851494694B00D0384F /* redo.png in Resources */,
+				A38379861494694B00D0384F /* delete.png in Resources */,
+				A3B885E714FF4C3C003B8B05 /* 0001.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3ABA6E61493832B0071D53D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3ABA6F61493832B0071D53D /* InfoPlist.strings in Resources */,
+				A3ABA6F81493832B0071D53D /* SmartGeometryTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A37B554914F2726200A33637 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export CODESIGN_ALLOCATE=/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate\nif [ \"${PLATFORM_NAME}\" == \"iphoneos\" ] || [ \"${PLATFORM_NAME}\" == \"ipados\" ]; then\n/Developer/iphoneentitlements401/gen_entitlements.py \"my.company.${PROJECT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\";\ncodesign -f -s \"iPhone Developer\" --entitlements \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\"\nfi";
+		};
+		A3ABA6E71493832B0071D53D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3ABA6C11493832B0071D53D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3ABA6D61493832B0071D53D /* main.m in Sources */,
+				A3ABA6DA1493832B0071D53D /* SmartGeometryAppDelegate.m in Sources */,
+				A3ABA6E01493832B0071D53D /* SmartGeometryViewController.m in Sources */,
+				A38379A314947F4F00D0384F /* SCPoint.m in Sources */,
+				A38379A414947F4F00D0384F /* PenInfo.m in Sources */,
+				A38379FA149538FF00D0384F /* Constraint.m in Sources */,
+				A38379FD14953E7B00D0384F /* ConstraintGraph.m in Sources */,
+				A32B21141495B7D000568A5B /* Stroke.m in Sources */,
+				0A98D4EF1495CE3300E6596A /* UnitFactory.m in Sources */,
+				0A36053D149690D3000B9062 /* BroadView.m in Sources */,
+				0A36053E149690D3000B9062 /* Gunit.m in Sources */,
+				0A36053F149690D3000B9062 /* LineUnit.m in Sources */,
+				0A360540149690D3000B9062 /* PointUnit.m in Sources */,
+				0A360541149690D3000B9062 /* SCGraph.m in Sources */,
+				0A360542149690D3000B9062 /* SCLineGraph.m in Sources */,
+				0A360543149690D3000B9062 /* SCPointGraph.m in Sources */,
+				0A360546149691D0000B9062 /* Threshold.m in Sources */,
+				0A3605521496A0DC000B9062 /* SCTriangleGraph.m in Sources */,
+				A37B0A7D1499233700CF2587 /* SCRectangleGraph.m in Sources */,
+				A396058214B6DC5700D521B7 /* CurveUnit.m in Sources */,
+				A377032214C8134900DFEEAC /* SCCurveGraph.m in Sources */,
+				A3CE97EF14F8B7B0001EB46B /* Edit.m in Sources */,
+				A3B885F114FF50D3003B8B05 /* GraphImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3ABA6E41493832B0071D53D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3ABA6FA1493832B0071D53D /* SmartGeometryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3ABA6F01493832B0071D53D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3ABA6C41493832B0071D53D /* SmartGeometry */;
+			targetProxy = A3ABA6EF1493832B0071D53D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3ABA6D21493832B0071D53D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3ABA6D31493832B0071D53D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A3ABA6DB1493832B0071D53D /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3ABA6DC1493832B0071D53D /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		A3ABA6E11493832B0071D53D /* SmartGeometryViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3ABA6E21493832B0071D53D /* en */,
+			);
+			name = SmartGeometryViewController.xib;
+			sourceTree = "<group>";
+		};
+		A3ABA6F41493832B0071D53D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3ABA6F51493832B0071D53D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3ABA6FB1493832B0071D53D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		A3ABA6FC1493832B0071D53D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3ABA6FE1493832B0071D53D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmartGeometry/SmartGeometry-Prefix.pch";
+				INFOPLIST_FILE = "SmartGeometry/SmartGeometry-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A3ABA6FF1493832B0071D53D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmartGeometry/SmartGeometry-Prefix.pch";
+				INFOPLIST_FILE = "SmartGeometry/SmartGeometry-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A3ABA7011493832B0071D53D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SmartGeometry.app/SmartGeometry";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmartGeometry/SmartGeometry-Prefix.pch";
+				INFOPLIST_FILE = "SmartGeometryTests/SmartGeometryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A3ABA7021493832B0071D53D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SmartGeometry.app/SmartGeometry";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmartGeometry/SmartGeometry-Prefix.pch";
+				INFOPLIST_FILE = "SmartGeometryTests/SmartGeometryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3ABA6BF1493832B0071D53D /* Build configuration list for PBXProject "SmartGeometry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3ABA6FB1493832B0071D53D /* Debug */,
+				A3ABA6FC1493832B0071D53D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3ABA6FD1493832B0071D53D /* Build configuration list for PBXNativeTarget "SmartGeometry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3ABA6FE1493832B0071D53D /* Debug */,
+				A3ABA6FF1493832B0071D53D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3ABA7001493832B0071D53D /* Build configuration list for PBXNativeTarget "SmartGeometryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3ABA7011493832B0071D53D /* Debug */,
+				A3ABA7021493832B0071D53D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3ABA6BC1493832B0071D53D /* Project object */;
+}
