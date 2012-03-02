@@ -11,6 +11,8 @@
 		A38379841494694B00D0384F /* undo.png in Resources */ = {isa = PBXBuildFile; fileRef = A38379811494694B00D0384F /* undo.png */; };
 		A38379851494694B00D0384F /* redo.png in Resources */ = {isa = PBXBuildFile; fileRef = A38379821494694B00D0384F /* redo.png */; };
 		A38379861494694B00D0384F /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = A38379831494694B00D0384F /* delete.png */; };
+		A393BB8C14FFAEC50085BD94 /* controlPointScale.png in Resources */ = {isa = PBXBuildFile; fileRef = A393BB8A14FFAEC50085BD94 /* controlPointScale.png */; };
+		A393BB8D14FFAEC50085BD94 /* controlPointRotation.png in Resources */ = {isa = PBXBuildFile; fileRef = A393BB8B14FFAEC50085BD94 /* controlPointRotation.png */; };
 		A3ABA6CA1493832B0071D53D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3ABA6C91493832B0071D53D /* UIKit.framework */; };
 		A3ABA6CC1493832B0071D53D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3ABA6CB1493832B0071D53D /* Foundation.framework */; };
 		A3ABA6CE1493832B0071D53D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3ABA6CD1493832B0071D53D /* CoreGraphics.framework */; };
@@ -47,6 +49,8 @@
 		A38379811494694B00D0384F /* undo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = undo.png; sourceTree = "<group>"; };
 		A38379821494694B00D0384F /* redo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redo.png; sourceTree = "<group>"; };
 		A38379831494694B00D0384F /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
+		A393BB8A14FFAEC50085BD94 /* controlPointScale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = controlPointScale.png; sourceTree = "<group>"; };
+		A393BB8B14FFAEC50085BD94 /* controlPointRotation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = controlPointRotation.png; sourceTree = "<group>"; };
 		A3ABA6C51493832B0071D53D /* SmartGeometry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartGeometry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3ABA6C91493832B0071D53D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A3ABA6CB1493832B0071D53D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -148,6 +152,8 @@
 		A3ABA6D01493832B0071D53D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A393BB8A14FFAEC50085BD94 /* controlPointScale.png */,
+				A393BB8B14FFAEC50085BD94 /* controlPointRotation.png */,
 				A3B885E614FF4C3C003B8B05 /* 0001.png */,
 				A38379811494694B00D0384F /* undo.png */,
 				A38379821494694B00D0384F /* redo.png */,
@@ -254,6 +260,8 @@
 				A38379851494694B00D0384F /* redo.png in Resources */,
 				A38379861494694B00D0384F /* delete.png in Resources */,
 				A3B885E714FF4C3C003B8B05 /* 0001.png in Resources */,
+				A393BB8C14FFAEC50085BD94 /* controlPointScale.png in Resources */,
+				A393BB8D14FFAEC50085BD94 /* controlPointRotation.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

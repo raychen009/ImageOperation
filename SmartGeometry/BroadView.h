@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
 #import "GraphImageView.h"
 
 @interface BroadView : UIView
@@ -30,8 +31,13 @@
     CGContextRef context;
     Boolean hasDrawed;
     
-    
     GraphImageView* graphImageView;
+    
+    CGPoint beginPoint;
+    
+    CGAffineTransform rotationTransform;
+    CGAffineTransform translationTransform;
+    CGAffineTransform scaleTransform;
     
     id owner;
 }
@@ -55,7 +61,12 @@
 @property (readwrite)   CGContextRef        context;
 @property (assign)      id                  owner;
 @property (readwrite)   Boolean             hasDrawed;
-@property (retain)      GraphImageView*        graphImageView;
+@property (retain)      GraphImageView*     graphImageView;
+@property (readwrite)   CGPoint             beginPoint;
+
+@property (readwrite)   CGAffineTransform   rotationTransform;
+@property (readwrite)   CGAffineTransform   translationTransform;
+@property (readwrite)   CGAffineTransform   scaleTransform;
 
 -(void) viewJustLoaded;
 -(void) undoFunc:(id)sender;
